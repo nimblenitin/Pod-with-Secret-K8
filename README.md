@@ -16,9 +16,9 @@ $ vi pod_with_secret.yaml
 $ kubectl apply -f pod_with_secret.yaml
 
 3. Checkout the secret being used by the Pod.
-kubectl exec mysql-pod-with-secret -- printenv
+$ kubectl exec mysql-pod-with-secret -- printenv
 
-Quick tip-
+# Quick tip-
 Once you have created secret you can decode it in the below manner-
 
 1. Output the encoded value
